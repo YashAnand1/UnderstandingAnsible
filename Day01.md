@@ -23,6 +23,19 @@
 - YAML scripting used for using Ansible, Uses key-pair
 - Ansible can manage many servers if mass install/update has to take place on 100s of servers at once
 - No need for manually managing servers individually
+
+<div align = "center"> 
+  
+| Advantages |
+|------------|
+|Free to use: OSS|
+| Highly secure: agentless & ssh |
+|Lightweight | 
+| YAML: Special training not needed |
+| Push Mechanism |
+  
+</div>
+
 - Configurations = RAM, softwares installed, IP, etc. | Management = deleting, adding, etc. of configurations
 - Ansible = a device for instantaneous communism
 - PUSH MECHANISM MOST IMPORTANT - User will be the one sending signals to update, install, etc.
@@ -35,15 +48,6 @@
 - YAML - Yet ANother Markup Lang - Human readable - Push mechanism
 - AGENTLESS - VERY IMPORTANT - NO NEED TO INSTALL ANYTHING! - Talks through SSH with the servers 
 - You write scripts in playbook, where modules = resources, available online
-
-## Features
-| Advantages |
-|------------|
-|Free to use: OSS|
-| Highly secure: agentless & ssh |
-|Lightweight | 
-| YAML: Special training not needed |
-| Push Mechanism |
 
 ## References
 - [ANSIBLE-CMDB Docs](https://ansible-cmdb.readthedocs.io/en/latest/usage/) 
