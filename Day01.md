@@ -23,6 +23,11 @@
 - YAML scripting used for using Ansible, Uses key-pair
 - Ansible can manage many servers if mass install/update has to take place on 100s of servers at once
 - No need for manually managing servers individually
+- Configurations = RAM, softwares installed, IP, etc. | Management = deleting, adding, etc. of configurations
+- Ansible = a device for instantaneous communism
+- PUSH MECHANISM MOST IMPORTANT - User will be the one sending signals to update, install, etc.
+- Can be used for Physical, VM, Cloud servers
+- Configuration management turns code into infra (IAC: Infra As Code) - write the kind of infra you want as code - Ansible will configure server on its own
 
 <div align = "center"> 
   
@@ -35,12 +40,6 @@
 | Push Mechanism |
   
 </div>
-
-- Configurations = RAM, softwares installed, IP, etc. | Management = deleting, adding, etc. of configurations
-- Ansible = a device for instantaneous communism
-- PUSH MECHANISM MOST IMPORTANT - User will be the one sending signals to update, install, etc.
-- Can be used for Physical, VM, Cloud servers
-- Configuration management turns code into infra (IAC: Infra As Code) - write the kind of infra you want as code - Ansible will configure server on its own
 
 ## Architecture of Ansible
 - ANSIBLE SERVER directly communicates with servers to be configed
