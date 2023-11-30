@@ -18,10 +18,10 @@
 
 | Ad Hoc | Modules | Playbooks | 
 |----------|---------|---------|
-|- Simple linux commands | Written in YAML | Written in YAML |
+| Simple linux commands | Written in YAML | Written in YAML |
 | Ad Hoc in eng = temp/emergency/improvised | If a single cmd to be written, its a module | Collection of Modules - more than 1 module |
 | SOmething used for immediate purpose | Single work | Like a collection of pages: BOOK |
-| BAD BECAUSE IT OVERWRITES! If "touch abcd1" run twice, v1 is overwritten :(  | Like a page | Does more work |
+| BAD BECAUSE IT OVERWRITES! If "touch abcd1" run twice, v1 is overwritten | Like a page | Does more work |
 | Ex: "adduser abcd" | Ex: Gotta run "sudo apt update" | Ex: Gotta update system, install sudo apt get ims, start the server, start etcd |
 
 **NOTE:** Modules & Playbooks check if the user has already AND THEN create it, no overwriting.
