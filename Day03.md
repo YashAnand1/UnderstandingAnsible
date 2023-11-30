@@ -1,17 +1,17 @@
 <div align = "center">
 
-29 November
+# 29 November
 
 </div>
 
-# References
+## References
 - [ANSIBLE AD HOC, Modules and Playbooks](https://www.youtube.com/watch?v=SR_CZcZQfqE&list=PLBGx66SQNZ8aPsFDwb79JrS2KQBTIZo10&index=33)
 - [Ansible Ad Hoc Document](https://docs.ansible.com/ansible/latest/command_guide/intro_adhoc.html)
 
-# Today's plan:
+## Today's plan:
 - Ad hoc, Modules, Playbook
 
-# Ways of pushing
+## Ways of pushing
 - Ad hoc commands
 - Modules
 - Playbook
