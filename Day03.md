@@ -240,7 +240,6 @@ Output:
 - - Stopping service using service module using
 `ansible demoByYash -m service -a "name=chessx service=stopped"`
 ```
-```
 [WARNING]: Both option name and its alias service are set.
 192.168.122.46 | SUCCESS => {
     "ansible_facts": {
@@ -1168,10 +1167,8 @@ Output:
     }
 }
 ```
-```
 
 - - Starting service using service module using `ansible demoByYash -m service -a "name=chessx service=started"`
-```
 ```
 [WARNING]: Both option name and its alias service are set.
 192.168.122.128 | SUCCESS => {
@@ -1636,7 +1633,6 @@ Output:
         "WatchdogUSec": "infinity"
     }
 }
-```
 ```
 
 - - Verifying status using `ansible demoByYash -b -m service -a "name=chessx service=status"`
