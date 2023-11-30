@@ -1,7 +1,7 @@
 <div align="center">
   
 # 🪐 UNDERSTANDING ANSIBLE 🪐    
-# — Daily Progress-Documentation For Self-Monitoring —    
+# — Daily Progress-Logging For Self-Monitoring —    
 
 _____________________________________________________________________________________                        
 
