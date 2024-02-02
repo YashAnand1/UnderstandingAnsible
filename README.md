@@ -114,6 +114,21 @@ ______________________________________
 1. Create an ansible server & 2 nodes
 2. Establishing connection
 
+# Connecting Machines
+- sudo adduser ansible (optional) in the VMs
+- Inside /etc/ansible/hosts, add the VM IPs like:
+```
+[GROUP]
+192.x.x.x
+192.y.y.y
+192.z.z.z
+```
+- Enable sudo access without password by adding: `echo "<user> ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/<user>`
+- [Copy the public-ssh-id for connecting with the VMs from Ansible-Master machine](https://subscription.packtpub.com/book/cloud-and-networking/9781803235417/2/ch02lvl1sec07/configuring-your-managed-nodes). **EVERYTHING WILL BE DONE IN __BASE MACHINE__ HERE**,
+  - Run `ssh-keygen` in base machine
+  - run `ssh-copy-id -i ~/.ssh/id_rsa <user>@<ip>`
+  - SSH into your VMs and now password shouldn't be required  
+
 # Setting up servers
 - We create the server ec2 instance 
 - download package using wget & then install ansible server'spackage
