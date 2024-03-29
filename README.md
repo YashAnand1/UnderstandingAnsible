@@ -147,10 +147,19 @@ ansible ALL=(ALL) NOPASSWD:ALL
 - STILL have to write commands w/ sudo since you are not root user - ansible user is only a sudo user not root user
 - NO communication b/w servers through ssh, come bacck to ansible server and we need to install ssh 
 - make changes to /etc/ssh/sshd_config & node 1 and node 2 should be allowed to connect
-- create the connection in the server by creating 
-- sudo apt-get install ansible
-got erro "sudo ansible --version
+- create the connection in the server by creating
+- Working install:
+```
+sudo apt remove ansible
+sudo apt update
+sudo apt install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+```
+- Potential error from `sudo ansible --version`:
+```
 ERROR: Ansible requires the locale encoding to be UTF-8; Detected ISO8859-1." after installing
+```
 solved by https://www.reddit.com/r/ansible/comments/z66t0l/comment/jwenrji/?utm_source=share&utm_medium=web2x&context=3 adding following to .bashrc:
 ```
 export LC_ALL=en_US.UTF-8
